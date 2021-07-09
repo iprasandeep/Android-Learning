@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Prasandeep"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 30"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education: B.Tech(Computer Science)"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="55sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: SDE at Amazon"
+        android:layout_marginTop="105sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="6sp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Prasandeep"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 30"
+        android:layout_marginTop="175sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education: B.Tech(Computer Science)"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="205sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: SDE at Amazon"
+        android:layout_marginTop="255sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="6sp"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Prasandeep"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 30"
+        android:layout_marginTop="325sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education: B.Tech(Computer Science)"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="355sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: SDE at Amazon"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="150sp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+</RelativeLayout>

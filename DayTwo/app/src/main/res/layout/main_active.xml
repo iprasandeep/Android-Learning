@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/calculator"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/etFirstValue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter First Value"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <EditText
+        android:id="@+id/etSecondValue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="05dp"
+        android:ems="10"
+        android:hint="Enter Second Value"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/plus"
+        android:textSize="25sp"
+        app:backgroundTint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btSub"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        android:text="@string/Sub"
+        android:textSize="25sp"
+        app:backgroundTint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btMul"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/Mul"
+        android:textSize="25sp"
+        app:backgroundTint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btDiv"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/Div"
+        android:textSize="25sp"
+        app:backgroundTint="@color/black"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
